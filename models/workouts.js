@@ -8,7 +8,7 @@ const workoutSchema = new Schema({
     type: Date,
     default: Date.now
   },
-  exercise:[
+  exercises:[
     {
     type: {
       type: String,
@@ -23,22 +23,22 @@ const workoutSchema = new Schema({
     duration: {
       type: Number,
       unique: true,
-      required: true
+    },
+    distance: {
+      type: Number,
+      unique: true,
     },
     weight: {
       type: Number,
       unique: true,
-      required: false
     },
     reps: {
       type: Number,
       unique: true,
-      required: false
     },
     sets: {
       type: Number,
       unique: true,
-      required: false
     },
     }
 ],
