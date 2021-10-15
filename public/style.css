@@ -1,27 +1,34 @@
+
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 html,
 body,
 .wrapper {
   height: 100%;
+  background: url('./gym.jpeg');
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #202124;
   color: #ffffff;
   padding: 24px;
   line-height: 3;
   font-size: 1.2rem;
+  
 }
 
 a,
@@ -32,6 +39,20 @@ a:visited {
   color: inherit;
 }
 
+/* .hero{
+  content: '';
+  background: url('./gym.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+
 nav a {
   padding: 18px;
   transition-property: color, background;
@@ -40,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   color: #5793fd;
 }
 
@@ -50,6 +71,13 @@ header {
   text-align: center;
   font-size: 1.5rem;
 }
+
+h1{
+  color: white;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
 
 select {
   display: block;
