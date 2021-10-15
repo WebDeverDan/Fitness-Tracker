@@ -48,10 +48,10 @@
   * If you have any questions regarding the application, please reach out to **Daniel Bradley** (the creator), at their GitHub profile located here: **https://github.com/WebDeverDan**, or via email at **danielbvideo@gmail.com**.
 
   ## Screenshots
-  ![Image 1 of application:]()
-  ![Image 2 of application:]()
-  ![Image 3 of application:]()
-  ![Image 3 of application:]()
+  ![Image 1 of application:](https://github.com/WebDeverDan/Fitness-Tracker/blob/562e12895f9d7f5b5f0a62f30277731ca5543255/public/screenshots/homepage.png)
+  ![Image 2 of application:](https://github.com/WebDeverDan/Fitness-Tracker/blob/562e12895f9d7f5b5f0a62f30277731ca5543255/public/screenshots/stats%20closeup.png)
+  ![Image 3 of application:](https://github.com/WebDeverDan/Fitness-Tracker/blob/562e12895f9d7f5b5f0a62f30277731ca5543255/public/screenshots/stats-graphs.png)
+  
 
 
 
